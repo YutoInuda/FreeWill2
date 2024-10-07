@@ -64,6 +64,14 @@
 *choice2_1_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_1_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question2.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question3.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question3.5.png"  ]
@@ -73,6 +81,14 @@
 *choice2_1_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_1_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question2.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question3.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question3.5.png"  ]
@@ -93,6 +109,14 @@
 *choice2_2_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_2_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question4.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question5.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question5.5.png"  ]
@@ -102,6 +126,14 @@
 *choice2_2_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_2_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question4.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question5.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question5.5.png"  ]
@@ -122,6 +154,14 @@
 *choice2_3_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_3_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question6.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question7.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question7.5.png"  ]
@@ -131,6 +171,14 @@
 *choice2_3_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice2_3_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game2_question6.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game2_question7.png"  ]
 [bg  time="250"  method="puffIn"  storage="game2_question7.5.png"  ]
