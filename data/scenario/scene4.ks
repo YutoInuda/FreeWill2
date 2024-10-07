@@ -110,6 +110,14 @@
 *choice4_1_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_1_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question2.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question3.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question3.5.png"  ]
@@ -119,6 +127,14 @@
 *choice4_1_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_1_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question2.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question3.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question3.5.png"  ]
@@ -139,6 +155,14 @@
 *choice4_2_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_2_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question4.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question5.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question5.5.png"  ]
@@ -148,6 +172,14 @@
 *choice4_2_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_2_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question4.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question5.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question5.5.png"  ]
@@ -168,6 +200,14 @@
 *choice4_3_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_3_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question6.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question7.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question7.5.png"  ]
@@ -177,6 +217,14 @@
 *choice4_3_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_3_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question6.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question7.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question7.5.png"  ]
@@ -197,6 +245,14 @@
 *choice4_4_yes
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_4_yes'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question8.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question9.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question9.5.png"  ]
@@ -206,6 +262,14 @@
 *choice4_4_no
 
 [cm  ]
+[iscript]
+    // GA4にイベントを送信
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+        'event': 'button_click',
+        'button_name': 'choice4_4_no'
+    });
+[endscript]
 [bg  time="100"  method="crossfade"  storage="game4_question8.5.png"  ]
 [bg  time="1000"  method="crossfade"  storage="game4_question9.png"  ]
 [bg  time="250"  method="puffIn"  storage="game4_question9.5.png"  ]
